@@ -49,7 +49,6 @@ jobs:
             - name: Test that GDAL and InVEST import
               run: |
                   docker run --rm ghcr.io/${{ github.repository_owner }}/devstack:latest python -c "from osgeo import gdal"
-                  docker run --rm ghcr.io/${{ github.repository_owner }}/devstack:latest python -m natcap.invest --version
 
             - name: Push docker
               run: |
