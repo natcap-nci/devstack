@@ -12,6 +12,7 @@ dependencies:
     - cxx-compiler
     - jupyter
     - requests
+    - tqdm
     - geopandas
     - pip:
         - ecoshard
