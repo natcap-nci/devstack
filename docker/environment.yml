@@ -1,6 +1,7 @@
 name: base
 channels:
     - conda-forge
+    - bioconda  # needed for snakemake
 dependencies:
     - python=3.10
     - gdal
@@ -13,5 +14,6 @@ dependencies:
     - requests
     - tqdm
     - geopandas
+    - snakemake
     - pip:
         - ecoshard
